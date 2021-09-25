@@ -1,0 +1,43 @@
+.check {
+  display: flex;
+}
+
+.check .yes {
+  border-radius: 6px 0px 0px 6px;
+}
+
+.check .no {
+  border-left: none;
+  border-radius: 0px 6px 6px 0px;
+}
+
+.check .yes,
+.check .no {
+  border: 1px solid var(--primary-color);
+  padding: 3px 10px;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.check.accepted .yes {
+  background: var(--primary-color);
+  color: white;
+}
+
+.check.denied .no {
+  background: var(--primary-color);
+  color: white;
+}
+
+.checkItem.disabled .check .yes,
+.checkItem.disabled .check .no {
+  border-color: var(--gray-color);
+  color: var(--gray-color);
+  cursor: auto;
+}
+
+.checkItem.disabled .check.accepted .yes,
+.checkItem.disabled .check.denied .no {
+  background: var(--gray-color);
+  color: white;
+}

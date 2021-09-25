@@ -1,0 +1,19 @@
+.checkItem {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.checkItem.active {
+  background: var(--highlight-color);
+}
+
+.checkItem .p {
+  margin: 0px 0px 4px 0px;
+  color: var(--black-color);
+}
+
+.checkItem.disabled .p {
+  color: var(--gray-color);
+}

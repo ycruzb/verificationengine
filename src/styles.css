@@ -1,0 +1,14 @@
+.App {
+  font-family: sans-serif;
+
+  --primary-color: #004e5f;
+  --highlight-color: #def7f7;
+  --black-color: #222;
+  --gray-color: #cecece;
+}
+
+.container {
+  width: 100%;
+  padding: 20px;
+  max-width: 400px;
+}
